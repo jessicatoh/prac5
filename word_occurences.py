@@ -8,7 +8,7 @@ for word in words:
     # we could use the "Easier to Ask Forgiveness" pattern using exceptions
     unique_words[word] = frequency + 1
 
-# Print the unique words and their frequencies,
+
 # in alphabetical order
 words = list(unique_words.keys())
 words.sort()
